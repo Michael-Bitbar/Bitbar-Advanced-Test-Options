@@ -1,8 +1,8 @@
 # Bitbar-Advanced-Test-Options
 Includes various sample scripts for different configurations.
 
-To avoid having to having to recompile the tests for various credentials, there are ways various parameters that may be configured under the advanced settings.
+To avoid having to recompile tests for different user credentials per mobile application, there are ways to pass various parameters to Bitbar Test Cloud via Project > Advanced Settings.
 
-For example, you may have different test packages that you want to run depending on a credential. 
+Specific test cases can be Included Or Excluded based on annotations within test scripts. Test cases may also be ran depending on the package or class. 
 
-. Do you have a recommendation for this use case, or do you basically recommend to hard code the creds in the test itself?
+For example, you may run a specific test package depending on a set of credential by defining the test package under the Advanced Options. 
